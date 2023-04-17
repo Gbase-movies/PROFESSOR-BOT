@@ -516,14 +516,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "rmbgsticker":
         await removebg_sticker(client, query.message)
     elif query.data == "pages":
-        await query.answer("🤨 Curiosity is a little more, isn't it? 😁", show_alert=True)
+        await query.answer("🤨 Nashindwa kutambua unaelekea wapi 😁", show_alert=True)
 
     elif query.data == "start":                        
         buttons = [[
             InlineKeyboardButton("➕️ NIWEKE KWENYE GROUP LAKO⚡ ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("🔍 TAFUTA 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("💸LIPIA💸", url="https://t.me/+swSKMviZdY0zMWU0")
+            InlineKeyboardButton("💸ADMIN💸", url="https://t.me/swaflix1")
             ],[
             InlineKeyboardButton("ℹ️ MSAADA ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
