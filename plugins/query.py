@@ -523,7 +523,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("➕️ NIWEKE KWENYE GROUP LAKO⚡ ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("🔍 TAFUTA 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("📢 𝚄𝙿𝙳𝙰𝚃𝙴𝚂 📢", url="https://t.me/swaflixhub")
+            InlineKeyboardButton("💸LIPIA💸", url="https://t.me/+swSKMviZdY0zMWU0")
             ],[
             InlineKeyboardButton("ℹ️ MSAADA ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
@@ -602,7 +602,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons= [[
-            InlineKeyboardButton('❣️ PROJECT ❣️', callback_data='source')
+            InlineKeyboardButton('⚡ DEVELOPER ⚡', callback_data='source')
             ],[
             InlineKeyboardButton('🏠 𝙷𝙾𝙼𝙴 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 𝙲𝙻𝙾𝚂𝙴 🔐', callback_data='close_data')
@@ -614,7 +614,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('CONTACT🙏', url='https://t.me/swaflix1')
+            InlineKeyboardButton('CONTACT📞📲', url='https://t.me/swaflix1')
             ],[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='about')
         ]]
