@@ -523,7 +523,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("➕️ NIWEKE KWENYE GROUP LAKO⚡ ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("🔍 TAFUTA 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("💸ADMIN💸", url="https://t.me/swaflix1")
+            InlineKeyboardButton("💸LIPIA💸", url="https://t.me/+swSKMviZdY0zMWU0")
             ],[
             InlineKeyboardButton("ℹ️ MSAADA ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
