@@ -520,12 +520,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":                        
         buttons = [[
-            InlineKeyboardButton("➕️ NIWEKE KWENYE GROUP LAKO⚡ ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("➕️ ADD ME IN YOUR GROUP⚡ ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🔍 TAFUTA 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("💸LIPIA💸", url="https://t.me/+swSKMviZdY0zMWU0")
+            InlineKeyboardButton("🔍 SEARCH 🔍", switch_inline_query_current_chat=''), 
+            InlineKeyboardButton("💸SUBSCRIBE💸", url="http://m.youtube.com/@SWAFLIX")
             ],[
-            InlineKeyboardButton("ℹ️ MSAADA ℹ️", callback_data="help"),
+            InlineKeyboardButton("ℹ️ HELP ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
