@@ -520,7 +520,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":                        
         buttons = [[
-            InlineKeyboardButton("➕️ ADD ME IN YOUR GROUP⚡ ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton("➕️ ADD ME IN YOUR GROUP ⚡ ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("🔍 SEARCH 🔍", switch_inline_query_current_chat=''), 
             InlineKeyboardButton("💸SUBSCRIBE💸", url="http://m.youtube.com/@SWAFLIX")
