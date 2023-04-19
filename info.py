@@ -50,7 +50,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MAX_RIST_BTNS = int(environ.get('MAX_RIST_BTNS', "10"))
 START_MESSAGE = environ.get('START_MESSAGE', '👋 𝙷𝙴𝙻𝙾 {user}\n\nMy name is {bot},\nI will help you to get all latest movies and series add me to your group and make me admin😍 ⚡...')
 BUTTON_LOCK_TEXT = environ.get("BUTTON_LOCK_TEXT", "⚠️ 𝙃𝙚𝙮 {query}! this is not for you please type down name of movie or series😂")
-FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '😂click try again and make sure u Subscribe our channel to continue here💸!')
+FORCE_SUB_TEXT = environ.get('FORCE_SUB_TEXT', '😂Join and Subscribe our channel to continue here best 💸!')
 RemoveBG_API = environ.get("RemoveBG_API", "")
 WELCOM_PIC = environ.get("WELCOM_PIC", "")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "Hai {user}\nwelcome to {chat}  for English movies and series check me i will help ⚡")
@@ -79,7 +79,7 @@ MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
-PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "True")), True)
+PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 #request force sub
