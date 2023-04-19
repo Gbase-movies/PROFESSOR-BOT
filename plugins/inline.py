@@ -33,7 +33,7 @@ async def answer(bot, query):
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='Itakupasa umelipia ili nikuruhusu kupata movie na series 😂 ',
+                           switch_pm_text='best you need to subscribe and join our channel 😂 ',
                            switch_pm_parameter="subscribe")
         return
 
