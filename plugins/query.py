@@ -516,7 +516,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "rmbgsticker":
         await removebg_sticker(client, query.message)
     elif query.data == "pages":
-        await query.answer("🤨 Nashindwa kutambua unaelekea wapi 😁", show_alert=True)
+        await query.answer("🤨 no more ⚡⚡⚡⚡⚡🎭😁", show_alert=True)
 
     elif query.data == "start":                        
         buttons = [[
