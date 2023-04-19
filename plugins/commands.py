@@ -24,7 +24,7 @@ async def start(client, message):
         buttons = [[           
             InlineKeyboardButton('🚀GROUP LA UPDATE🎭📢 ', url=f'https://t.me/{SUPPORT_CHAT}')
             ],[
-            InlineKeyboardButton('ℹ️ MSAADA ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
+            InlineKeyboardButton('ℹ️ HELP ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]]
         await message.reply(START_MESSAGE.format(user=message.from_user.mention if message.from_user else message.chat.title, bot=temp.B_LINK), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)                    
         await asyncio.sleep(2) 
@@ -40,10 +40,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ NIWEKE KWENYE GROUP LAKO ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🔍 TAFUTA 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("💸LIPIA💸", url="https://t.me/+swSKMviZdY0zMWU0")
+            InlineKeyboardButton("🔍 SEARCH 🔍", switch_inline_query_current_chat=''), 
+            InlineKeyboardButton("💸SUBSCRIBE💸", url="https://m.youtube.com/@SWAFLIX")
             ],[      
-            InlineKeyboardButton("ℹ️ MSAADA ℹ️", callback_data="help"),
+            InlineKeyboardButton("ℹ️ HELP ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -67,7 +67,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 HAKIKISHA NIMEKUUNGA 🤖", url=invite_link.invite_link
+                    "🤖 MAKE SURE U SUBSCRIBE OUR CHANNEL TO USE ME🤖", url=invite_link.invite_link
                 )
             ]
         ]
@@ -90,10 +90,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton("➕️ NIWEKE KWENYE GROUP LAKO ➕️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton("🔍 TAFUTA 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("💸LIPIA💸", url="https://t.me/+swSKMviZdY0zMWU0")
+            InlineKeyboardButton("🔍 SEARCH 🔍", switch_inline_query_current_chat=''), 
+            InlineKeyboardButton("💸SUBSCRIBE💸", url="https://m.youtube.com/@SWAFLIX")
             ],[      
-            InlineKeyboardButton("ℹ️ MSAADA ℹ️", callback_data="help"),
+            InlineKeyboardButton("ℹ️ HELP ℹ️", callback_data="help"),
             InlineKeyboardButton("💫 𝙰𝙱𝙾𝚄𝚃 💫", callback_data="about")
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
